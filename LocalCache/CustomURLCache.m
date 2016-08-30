@@ -144,6 +144,7 @@
     if (![Reachability networkAvailable]) {
         return nil;
     }
+    
     //sendSynchronousRequest请求也要经过NSURLCache
     __block NSCachedURLResponse * cachedResponse = nil;
     id boolExsite = [self.responseDictionary objectForKey:url];
