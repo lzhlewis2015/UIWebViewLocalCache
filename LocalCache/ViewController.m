@@ -32,8 +32,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-    
+	// Test pull request
+    UILabel * label = [[UILabel alloc]init];
+    label.text = @"aaa";
     UIWebView *webView = [[UIWebView alloc] initWithFrame:self.view.frame];
     webView.delegate = self;
     self.webView = webView;
