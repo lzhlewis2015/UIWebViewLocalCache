@@ -34,7 +34,7 @@
     [super viewDidLoad];
 	// Test pull request
     UILabel * label = [[UILabel alloc]init];
-    label.text = "aaa";
+    label.text = @"aaa";
     UIWebView *webView = [[UIWebView alloc] initWithFrame:self.view.frame];
     webView.delegate = self;
     self.webView = webView;
